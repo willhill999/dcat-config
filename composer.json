@@ -1,0 +1,32 @@
+{
+    "name": "willhill999/dcat-config",
+    "alias": "",
+    "description": "just a config manager",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/willhill999/dcat-config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "willhill",
+            "email": "willhill9527@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Willhill\\DcatConfig\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Willhill\\DcatConfig\\DcatConfigServiceProvider",
+        "laravel": {
+            "providers": [
+                "Willhill\\DcatConfig\\DcatConfigServiceProvider"
+            ]
+        }
+    }
+}
