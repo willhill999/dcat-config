@@ -3,6 +3,9 @@
 return [
     '1.0.0' => [
         'Initialize extension.',
-        'create_dconfig_table.php',
     ],
+    '1.0.1' => [
+        'field type for config',
+        'create_dconfig_table.php'
+    ]
 ];
